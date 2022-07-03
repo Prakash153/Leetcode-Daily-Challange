@@ -43,6 +43,7 @@ code:
 
 
 class Solution {
+ 
     public int wiggleMaxLength(int[] nums) {
         if(nums.length < 2) return 1;
         int inc = 1 , dec = 1; 
